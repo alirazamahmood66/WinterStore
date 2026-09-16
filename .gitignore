@@ -40,4 +40,5 @@ Thumbs.db
 backend/_*.mjs
 backend/_*.json
 backend/_*.err
+backend/_*.env
 backend/audit-*.mjs

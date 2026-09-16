@@ -1,0 +1,27 @@
+# Dependencies (installed during build)
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build output (generated during build)
+frontend/dist/
+backend/dist/
+
+# Environment / secrets (never deployed)
+.env
+.env.*
+
+# Backend temporary diagnostic / credentials files
+backend/_*.env
+backend/_*.mjs
+backend/_*.json
+backend/_*.err
+
+# Archives, backups, screenshots
+*.zip
+*.rar
+*.7z
+*.sql
+*.sql.gz
+dash-final.png
+dash.png

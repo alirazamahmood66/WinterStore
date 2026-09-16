@@ -1,0 +1,13 @@
+{
+  "name": "winterstore",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WinterStore e-commerce monorepo root — Vercel build orchestration for the React (Vite) frontend and the Express API.",
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "install:all": "npm install && npm install --prefix frontend && npm install --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend"
+  }
+}
