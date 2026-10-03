@@ -1,6 +1,5 @@
 {
-  "framework": null,
-  "installCommand": "npm run install:all",
+  "installCommand": "npm install",
   "buildCommand": "npm run build",
   "outputDirectory": "frontend/dist",
   "rewrites": [
